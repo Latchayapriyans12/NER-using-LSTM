@@ -138,11 +138,13 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=5):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+
+![alt text](<Screenshot 2026-03-15 225436.png>)
+### Sample Text Prediction
 ![alt text](<Screenshot 2026-03-15 225429.png>)
 
 
-### Sample Text Prediction
-![alt text](<Screenshot 2026-03-15 225436.png>)
+
 
 ## RESULT
 The LSTM-based Named Entity Recognition (NER) model was successfully implemented and trained on the given dataset. The model effectively learned the sequential patterns in the text using Natural Language Processing techniques. It was able to identify and classify named entities such as persons, locations, and organizations. The results show that the LSTM model performs well for sequence labeling and entity extraction tasks.
