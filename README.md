@@ -9,17 +9,37 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## DESIGN STEPS
 
-### STEP 1:
+## STEP 1:
+Import necessary libraries.
 
-### STEP 2:
+## STEP 2:
+Load dataset , Read and clean the input data.
 
-### STEP 3:
+## STEP 3:
+Structure data into sentences with word-tag pairs.
 
-Write your own steps
+## STEP 4:
+Convert words and tags to indices using vocab dictionaries.
+
+## STEP 5:
+Pad sequences, convert to tensors, and batch them.
+
+## STEP 6:
+Create a model with Embedding, BiLSTM, and Linear layers.
+
+## STEP 7:
+Use training data to update model weights with loss and optimizer.
+
+## STEP 8:
+Check performance on validation data after each epoch.
+
+## STEP 9:
+Display predictions or plot loss curves.
+
 
 ## PROGRAM
-### Name:
-### Register Number:
+### Name: latchaya priyan S
+### Register Number:212224230139
 ```python
 class BiLSTMTagger(nn.Module):
 
@@ -118,10 +138,11 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=5):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
+![alt text](<Screenshot 2026-03-15 225429.png>)
 
 
 ### Sample Text Prediction
-
+![alt text](<Screenshot 2026-03-15 225436.png>)
 
 ## RESULT
+The LSTM-based Named Entity Recognition (NER) model was successfully implemented and trained on the given dataset. The model effectively learned the sequential patterns in the text using Natural Language Processing techniques. It was able to identify and classify named entities such as persons, locations, and organizations. The results show that the LSTM model performs well for sequence labeling and entity extraction tasks.
